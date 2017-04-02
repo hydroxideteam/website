@@ -1,5 +1,6 @@
  @font-face { font-family: monofur; src: url('font/monof55.ttf'); }
- @font-face { font-family: SparkkyJ; src: url('font/JAi_____.TTF'); } 
+ @font-face { font-family: SparkkyJ; src: url('font/JAi_____.TTF'); }
+
 .tingy {
 	background-color:#fff;
 	opacity: 0.8;
@@ -55,6 +56,7 @@
 }
 
 .sidenav {
+	margin-top:5px;
 	border-top-left-radius:10px;
 	float:right;
 	width:19%;
