@@ -1,0 +1,86 @@
+ @font-face { font-family: monofur; src: url('font/monof55.ttf'); }
+ @font-face { font-family: SparkkyJ; src: url('font/JAi_____.TTF'); } 
+.tingy {
+	background-color:#fff;
+	opacity: 0.8;
+}
+
+.topbar {
+	
+	width: 80%;
+	height:40px;
+	margin-top:5px;
+	float:left;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.feeds {
+	padding:4px;
+	width:80%;
+	height:50%;
+	float:left;
+}
+
+.intro {
+	font-family: SparkkyJ;
+	margin:10px;
+	font-size:15px;
+}
+
+.bod {
+	margin-top:10px;
+	width:80%;
+	height:40%;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	float:left;
+}
+
+.sidelink {
+	margin-left:20px;
+	color:#093C89;
+	font-family:SparkkyJ;
+	word-wrap:no;
+}
+
+.title {
+	font-family: monofur;
+	color:#404040;
+	padding-top:5px;
+	padding-left:10px;
+	font-size: 35px;
+	display: inline;
+	font-stretch: 100px;
+}
+
+.sidenav {
+	border-top-left-radius:10px;
+	float:right;
+	width:19%;
+	height:100%;
+	
+}
+
+.subtitle {
+	font-family: monofur;
+	padding-left:5px;
+	font-size: 25px;
+	color:#404040;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+html { 
+  background: url(bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+}
+
+body {
+	margin: 0px;
+	height:100%;
+}
