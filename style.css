@@ -12,19 +12,17 @@
 
 /* Text */
 .format {
-	background-color:rgba(255,255,255,0.8);
+	background-color:rgba(255,255,255,0.9);
 }
 
 .topbar {
-	
-	width: 80%;
 	height:40px;
-	margin-top:5px;
+	margin-top:10px;
 }
 
 .feeds {
 	padding:4px;
-	width:80%;
+	width:85%;
 	height:50%;
 	float:left;
 }
@@ -55,19 +53,19 @@
 
 .blurb-static {
 	margin-top:10px;
-	width:80%;
+	width:85%;
 	height:40%;
 	
 }
 
 .blurb {
 	margin-top:10px;
-	width:80%;
+	width:85%;
 	min-height:20%;
 	
 }
 
-.sidelink {
+a {
 	margin-left:20px;
 	color:#093C89;
 	font-family:Roboto;
@@ -78,7 +76,8 @@
 	font-family: monofur;
 	color:#404040;
 	padding-top:5px;
-	padding-left:10px;
+	padding-left:30px;
+	padding-right:30px;
 	font-size: 35px;
 	display: inline;
 	font-stretch: 100px;
@@ -86,9 +85,11 @@
 }
 
 .sidenav {
-	margin-top:5px;
-	width:19%;
-	height:100%;
+	margin-top:10px;
+	padding:10px;
+	position:absolute;
+	width:13%;
+	height:100vh;
 	border-bottom-left-radius: 0px !important;
 	border-bottom-right-radius: 0px !important; 
 	
