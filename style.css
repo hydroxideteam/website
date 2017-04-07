@@ -20,10 +20,14 @@
 	margin-top:10px;
 }
 
+.twitter-timeline {
+	padding-left:20px !important;
+}
+
 .feeds {
-	padding:4px;
+	padding-top:10px;
 	width:83%;
-	height:50%;
+	height:60%;
 	float:left;
 }
 
@@ -77,12 +81,11 @@ a {
 	color:lightblue;
 	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	padding-top:5px;
-	padding-left:30px;
-	padding-right:30px;
+	margin-left:30px;
+	margin-right:30px;
 	font-size: 35px;
 	display: inline;
 	font-stretch: 100px;
-	margin:0px;
 }
 
 .title {
@@ -109,11 +112,12 @@ a {
 
 .subtitle {
 	font-family: monofur;
-	padding-left:5px;
+	
 	font-size: 30px;
 	color:#404040;
 	margin:0px;
 	margin-top:5px;
+	margin-left:5px;
 	margin-bottom:5px;
 	text-indent:0px;
 }
