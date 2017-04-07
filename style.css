@@ -22,7 +22,7 @@
 
 .feeds {
 	padding:4px;
-	width:85%;
+	width:83%;
 	height:50%;
 	float:left;
 }
@@ -53,14 +53,14 @@
 
 .blurb-static {
 	margin-top:10px;
-	width:85%;
+	width:83%;
 	height:40%;
 	
 }
 
 .blurb {
 	margin-top:10px;
-	width:85%;
+	width:83%;
 	min-height:20%;
 	
 }
@@ -70,6 +70,19 @@ a {
 	color:#093C89;
 	font-family:Roboto;
 	word-wrap:no;
+}
+
+.teamhydroxide {
+	font-family: monofur;
+	color:lightblue;
+	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	padding-top:5px;
+	padding-left:30px;
+	padding-right:30px;
+	font-size: 35px;
+	display: inline;
+	font-stretch: 100px;
+	margin:0px;
 }
 
 .title {
