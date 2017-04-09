@@ -11,9 +11,10 @@
 	</div>
 	<div class = "sidenav f-left format">
 		<p class = "subtitle">Navigation</p>
-			<a href = "about/josh/index.html" class = "sidelink">About ServerGoverner</a> <br>
-			<a href = "about/aurelio/index.html" class = "sidelink">Download Links</a> <br>
+			<a href = "about/josh/index.html" class = "sidelink">About</a> <br>
+			<a href = "#downloads" class = "sidelink">Download</a> <br>
 			<a href = "about/billy/index.html" class = "sidelink">How to Use</a> <br>
+			<a href = "#permissions" class = "sidelink">Permissions</a><br>
 	</div>
 
 	<div class = "blurb f-right format">
@@ -24,55 +25,74 @@
 		<p class="subtitle">Why do I need it?</p>
 			<p>ServerGoverner is a lightweight and simple administration tool for your server, with enhanced banning and kicking, as well as adding the ability to mute and jail rule-breakers on your server. </p>
 	</div>
-	<div class = "blurb f-right format">
+	<div class = "blurb f-right format" id = "downloads">
 		<p class="subtitle">Download and Installation</p>
 
-			<a href = "">ServerGoverner v1.0 for Bukkit 1.11.2</a>
-			<a href = "">ServerGoverner v1.0 for Bukkit 1.10</a>
+			<p>Please download the plugin from our <a href ="https://dev.bukkit.org/projects/servergoverner">BukkitDev</a> page.</p>
 			<p>First of all, make sure your Minecraft server is running Bukkit or Spigot.</p>
 			<p>Download the appropriate version for your server, eg v1.7.2 .</p>
 			<p>If you cannot find your version, you can try a nearby 
 			<p>Next, drag the downloaded JAR file to the 'plugins' folder, inside your server folder.</p>
 			<p>That's it! Just restart or reload your server, and the plugin should be usable</p>
 
-		<p class="subtitle">How do I use it?</p>
+	</div>
+
+	<div class = "blurb f-right format" id = "permissions">
+		<p class="subtitle">Commands and Permissions</p>
 
 		
-
-		<p class = "subtitle">Latest Update: <sub>1 Apr 2017</sub></p>
-		<p class = "dt"> > Added stuff</p>
-
-	</div>
-	<div class = "blurb f-right format">
-		<p class="subtitle">Permissions</p>
 		 <table class = "permnodes">
 			<tr>
 				<th>Command</th>
-				<th>Node</th>
+				<th>Permission Node</th>
 				<th>Description</th>
 			</tr>
 			<tr>
-				<td>/local</td>
-				<td>sgov.player.localchat</td>
+				<td>/local [message]</td>
+				<td>sgov.localchat</td>
 				<td>Sends a message to nearby players within radius.</td>
 			</tr>
 
 			<tr>
-				<td class = "s">/home</td>
-				<td>sgov.player.home</td>
+				<td>/home</td>
+				<td>sgov.home</td>
 				<td>Teleports the player to the last bed.</td>
 			</tr>
 
 			<tr>
 				<td>/quit</td>
-				<td>sgov.player.commandquit</td>
+				<td>sgov.commandquit</td>
 				<td>Allows the player to leave the server via command.</td>
 			</tr>
 
 			<tr>
 				<td>/data</td>
-				<td>sgov.player.data</td>
+				<td>sgov.data</td>
 				<td>Gives a log of data to the player. Location, health, etc.</td>
+			</tr>
+
+			<tr>
+				<td>/god</td>
+				<td>sgov.god</td>
+				<td>Gods the player</td>
+			</tr>
+
+			<tr>
+				<td>/lag</td>
+				<td>sgov.lag</td>
+				<td>Displays server health stats such as RAM usage.</td>
+			</tr>
+
+			<tr>
+				<td>/friend [add|remove] [player] or /friend list or /friend c [message]</td>
+				<td>sgov.friend</td>
+				<td>Friend system command.</td>
+			</tr>
+
+			<tr>
+				<td>/fc [message]</td>
+				<td>sgov.friend</td>
+				<td>Shortening of friend chat command.</td>
 			</tr>
 
 			<tr>
@@ -82,23 +102,32 @@
 			</tr>
 
 			<tr>
-				<td>/ban</td>
-				<td>sgov.console.ban</td>
+				<td>/ban [player] [optional time] [reason]</td>
+				<td>sgov.admin.ban</td>
 				<td>Allows banishment of other players.</td>
 			</tr>
 
 			<tr>
-				<td>/kick</td>
-				<td>sgov.console.kick</td>
+				<td>/kick [player] [optional reason]</td>
+				<td>sgov.admin.kick</td>
 				<td>Allows jailing of other players.</td>
 			</tr>
 
 			<tr>
-				<td>/mute</td>
+				<td>/mute [player] [time]</td>
 				<td>sgov.console.mute</td>
 				<td>Allows muting of other players.</td>
 			</tr>
-		</table> 
+
+			<tr>
+				<td>/jail [player] [time]</td>
+				<td>sgov.console.jail</td>
+				<td>Allows jailing</td>
+			</tr>
+		</table>
+
+		<p class = "dt"><b>Notes:</b><br>
+		You can specify whether you want days, hours, or minutes in [time] tags, ie: 5m, 12h</p>
 	</div>
 	
 	

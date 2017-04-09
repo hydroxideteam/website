@@ -8,7 +8,19 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
+html { 
+  background: url(bg2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+}
 
+body {
+	margin: 0px;
+	height:100%;
+}
 
 /* Text */
 .format {
@@ -35,6 +47,14 @@
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 20px;
 	float:left;
+}
+
+.f-right.sidenav {
+	right:0%
+}
+
+.f-left.sidenav {
+	left:0%
 }
 
 .f-right {
@@ -69,11 +89,15 @@
 	
 }
 
-a {
+.sidelink {
 	margin-left:20px;
-	color:#093C89;
+
 	font-family:Roboto;
 	word-wrap:no;
+}
+
+a {
+	color:#093C89;
 }
 
 .teamhydroxide {
@@ -104,10 +128,8 @@ a {
 	margin-top:10px;
 	padding:10px;
 	width:13%;
-	height:100vh;
-	border-bottom-left-radius: 0px !important;
-	border-bottom-right-radius: 0px !important; 
-	
+	position:fixed;
+	height:92%;
 }
 
 .subtitle {
@@ -148,29 +170,18 @@ th, td {
     text-align: left;
     font-family: "Lucidia Console";
 	margin:10px;
-	font-size:13px;
+	font-size:15px;
 	opacity: 1;
+
+	border-right: 1px solid gray;
 }
 
 tr:nth-child(odd)  {
-	background-color:#CCFFCC !important;
+	background-color:#D0D0D0 !important;
 }
 tr:nth-child(even) {
-	background-color:#CCFFFF !important;
+	background-color:#C0C0C0 !important;
 }
 
 
 
-html { 
-  background: url(bg.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height:100%;
-}
-
-body {
-	margin: 0px;
-	height:100%;
-}
